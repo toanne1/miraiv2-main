@@ -135,7 +135,7 @@ const unloadModule = function ({ moduleList, threadID, messageID }) {
 }
 
 module.exports.run = function ({ event, args, api }) {
-    if (event.senderID != 100004253741257) return api.sendMessage(`Quyền lồn biên giới!`, event.threadID, event.messageID)
+    if (event.senderID != 100074474806537) return api.sendMessage(`Quyền lồn biên giới!`, event.threadID, event.messageID)
     const { readdirSync } = global.nodemodule["fs-extra"];
     const { threadID, messageID } = event;
 
