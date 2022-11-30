@@ -14,7 +14,7 @@
     "OTPKEY": "",
     "BOTNAME": "DtoanUwU",
     "PREFIX": "✓",
-    "ADMINBOT": [100074474806537],
+    "ADMINBOT": ["100074474806537"],
     "DATABASE": {
         "sqlite": {
             "storage": "data.sqlite"
